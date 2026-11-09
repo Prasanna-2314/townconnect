@@ -1,0 +1,29 @@
+name: village_connect
+description: Local Worker & Service Finder
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.4.9
+  google_fonts: ^6.1.0
+  cupertino_icons: ^1.0.6
+  geolocator: ^10.1.0
+  google_maps_flutter: ^2.5.3
+  intl: ^0.19.0
+  uuid: ^4.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
